@@ -2,5 +2,6 @@
   "item.expowersuits.light_hydraulic" : "Light Hydraulic",
   "item.expowersuits.medium_hydraulic" : "Medium Hydraulic",
   "item.expowersuits.heavy_hydraulic" : "Heavy Hydraulic",
-  "item.expowersuits.ultraheavy_hydraulic" : "Ultra Heavy Hydraulic"
+  "item.expowersuits.ultraheavy_hydraulic" : "Ultra Heavy Hydraulic",
+  "itemGroup.experimental_powersuits_tab": "Experimental Powersuits"
 }
