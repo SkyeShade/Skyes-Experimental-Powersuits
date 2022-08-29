@@ -1,8 +1,11 @@
 {
+  "item.expowersuits.superlight_hydraulic" : "Super Light Hydraulic",
   "item.expowersuits.light_hydraulic" : "Light Hydraulic",
   "item.expowersuits.medium_hydraulic" : "Medium Hydraulic",
   "item.expowersuits.heavy_hydraulic" : "Heavy Hydraulic",
   "item.expowersuits.ultraheavy_hydraulic" : "Ultra Heavy Hydraulic",
+  "item.expowersuits.industrial_hydraulic" : "Industrial Hydraulic",
+  "item.expowersuits.thicc_hydraulic" : "T.H.I.C.C Hydraulic",
   "item.expowersuits.titanium_ingot" : "Titanium Ingot",
   "item.expowersuits.raw_titanium" : "Raw Titanium",
   "block.expowersuits.titanium_ore" : "Titanium Ore",
