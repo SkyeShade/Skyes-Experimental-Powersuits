@@ -3,6 +3,7 @@ package net.skyeshade.expowersuits.block;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -23,10 +24,10 @@ public class ModBlocks {
 
     // add blocks here
     public static final RegistryObject<Block> TITANIUM_ORE = registerBlock("titanium_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops().explosionResistance(1200f)), ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(10f).requiresCorrectToolForDrops().explosionResistance(1200f)), ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB);
 
-    public static final RegistryObject<Block> DEEP_TITANIUM_ORE = registerBlock("deep_titanium_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.DEEPSLATE).strength(6f).requiresCorrectToolForDrops().explosionResistance(1200f)), ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB);
+    public static final RegistryObject<Block> DEEPSLATE_TITANIUM_ORE = registerBlock("deepslate_titanium_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.DEEPSLATE).strength(12f).requiresCorrectToolForDrops().explosionResistance(1200f)), ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB);
 
 
     //register stuff that i dont understand 100%

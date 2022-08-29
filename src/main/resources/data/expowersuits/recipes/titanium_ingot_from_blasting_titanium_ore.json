@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "expowersuits:titanium_ingot",
+  "ingredient": {
+    "item": "expowersuits:titanium_ore"
+  },
+  "result": "expowersuits:titanium_ingot",
+  "experience": 2.0,
+  "cookingtime": 1200
+}

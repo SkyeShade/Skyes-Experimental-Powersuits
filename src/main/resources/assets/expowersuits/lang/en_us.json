@@ -6,6 +6,6 @@
   "item.expowersuits.titanium_ingot" : "Titanium Ingot",
   "item.expowersuits.raw_titanium" : "Raw Titanium",
   "block.expowersuits.titanium_ore" : "Titanium Ore",
-  "block.expowersuits.deep_titanium_ore" : "Deepslate Titanium Ore",
+  "block.expowersuits.deepslate_titanium_ore" : "Deepslate Titanium Ore",
   "itemGroup.experimental_powersuits_tab": "Experimental Powersuits"
 }
