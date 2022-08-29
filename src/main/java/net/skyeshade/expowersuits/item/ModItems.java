@@ -25,6 +25,12 @@ public class ModItems {
     public static final RegistryObject<Item> ULTRAHEAVY_HYDRAULIC = ITEMS.register("ultraheavy_hydraulic",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB)));
 
+    public static final RegistryObject<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB)));
+
+    public static final RegistryObject<Item> RAW_TITANIUM = ITEMS.register("raw_titanium",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
