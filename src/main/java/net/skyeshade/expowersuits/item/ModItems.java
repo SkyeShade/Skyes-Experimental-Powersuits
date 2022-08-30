@@ -12,7 +12,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ExPowersuits.MOD_ID);
 
-
+    //Hydraulics
     public static final RegistryObject<Item> SUPERLIGHT_HYDRAULIC = ITEMS.register("superlight_hydraulic",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB).durability(2000)));
 
@@ -24,7 +24,7 @@ public class ModItems {
     public static final RegistryObject<Item> HEAVY_HYDRAULIC = ITEMS.register("heavy_hydraulic",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB).durability(8000)));
 
-    public static final RegistryObject<Item> ULTRAHEAVY_HYDRAULIC = ITEMS.register("ultraheavy_hydraulic",
+    public static final RegistryObject<Item> SUPERHEAVY_HYDRAULIC = ITEMS.register("superheavy_hydraulic",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB).durability(16000)));
 
     public static final RegistryObject<Item> INDUSTRIAL_HYDRAULIC = ITEMS.register("industrial_hydraulic",
@@ -32,6 +32,28 @@ public class ModItems {
 
     public static final RegistryObject<Item> THICC_HYDRAULIC = ITEMS.register("thicc_hydraulic",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB).durability(64000)));
+    //Electric Motors
+
+    public static final RegistryObject<Item> SUPERLIGHT_ELECTRIC_MOTOR = ITEMS.register("superlight_electric_motor",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB).durability(500)));
+
+    public static final RegistryObject<Item> LIGHT_ELECTRIC_MOTOR = ITEMS.register("light_electric_motor",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB).durability(500)));
+
+    public static final RegistryObject<Item> MEDIUM_ELECTRIC_MOTOR = ITEMS.register("medium_electric_motor",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB).durability(1000)));
+
+    public static final RegistryObject<Item> HEAVY_ELECTRIC_MOTOR = ITEMS.register("heavy_electric_motor",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB).durability(2000)));
+
+    public static final RegistryObject<Item> SUPERHEAVY_ELECTRIC_MOTOR = ITEMS.register("superheavy_electric_motor",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB).durability(4000)));
+
+    public static final RegistryObject<Item> INDUSTRIAL_ELECTRIC_MOTOR = ITEMS.register("industrial_electric_motor",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB).durability(8000)));
+
+
+    //Resources
 
     public static final RegistryObject<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB)));
