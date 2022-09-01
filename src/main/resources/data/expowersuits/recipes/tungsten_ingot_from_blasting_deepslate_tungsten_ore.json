@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "expowersuits:tungsten_ingot",
+  "ingredient": {
+    "item": "expowersuits:deepslate_tungsten_ore"
+  },
+  "result": "expowersuits:tungsten_ingot",
+  "experience": 2.0,
+  "cookingtime": 3200
+}

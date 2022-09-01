@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "expowersuits:titanium_ore",
-    "expowersuits:deepslate_titanium_ore",
     "expowersuits:tungsten_ore",
     "expowersuits:deepslate_tungsten_ore"
   ]

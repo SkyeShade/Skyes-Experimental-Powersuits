@@ -12,4 +12,9 @@ public class ModPlacedFeatures {
     public static final Holder<PlacedFeature> TITANIUM_ORE_PLACED = PlacementUtils.register("titanium_ore_placed",
             ModConfiguredFeatures.TITANIUM_ORE, ModOrePlacement.commonOrePlacement(9,//VeinsPerChunk
                     HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(40))));
+
+    public static final Holder<PlacedFeature> TUNGSTEN_ORE_PLACED = PlacementUtils.register("tungsten_ore_placed",
+            ModConfiguredFeatures.TUNGSTEN_ORE, ModOrePlacement.commonOrePlacement(12,//VeinsPerChunk
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-264), VerticalAnchor.aboveBottom(236))));
+
 }

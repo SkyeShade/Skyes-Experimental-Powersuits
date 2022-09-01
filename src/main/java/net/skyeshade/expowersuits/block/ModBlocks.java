@@ -30,6 +30,13 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.DEEPSLATE).strength(12f).requiresCorrectToolForDrops().explosionResistance(1200f)), ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB);
 
 
+    public static final RegistryObject<Block> TUNGSTEN_ORE = registerBlock("tungsten_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(20f).requiresCorrectToolForDrops().explosionResistance(1200f)), ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB);
+
+    public static final RegistryObject<Block> DEEPSLATE_TUNGSTEN_ORE = registerBlock("deepslate_tungsten_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.DEEPSLATE).strength(24f).requiresCorrectToolForDrops().explosionResistance(1200f)), ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB);
+
+
     //register stuff that i dont understand 100%
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab)  {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

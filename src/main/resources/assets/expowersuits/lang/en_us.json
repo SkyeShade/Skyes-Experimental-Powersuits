@@ -14,7 +14,14 @@
   "item.expowersuits.industrial_electric_motor" : "Industrial Electric Motor",
   "item.expowersuits.titanium_ingot" : "Titanium Ingot",
   "item.expowersuits.raw_titanium" : "Raw Titanium",
+  "item.expowersuits.tungsten_ingot" : "Tungsten Ingot",
+  "item.expowersuits.raw_tungsten" : "Raw Tungsten",
+
+
   "block.expowersuits.titanium_ore" : "Titanium Ore",
   "block.expowersuits.deepslate_titanium_ore" : "Deepslate Titanium Ore",
+  "block.expowersuits.tungsten_ore" : "Tungsten Ore",
+  "block.expowersuits.deepslate_tungsten_ore" : "Deepslate Tungsten Ore",
+
   "itemGroup.experimental_powersuits_tab": "Experimental Powersuits"
 }
