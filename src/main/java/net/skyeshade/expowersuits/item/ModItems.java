@@ -1,5 +1,7 @@
 package net.skyeshade.expowersuits.item;
 
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -61,6 +63,10 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_TITANIUM = ITEMS.register("raw_titanium",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB)));
 
+    //Armor Items
+    public static final RegistryObject<Item> TITANIUM_HELMET = ITEMS.register("titanium_helmet",
+            () -> new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.HEAD,
+    new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
