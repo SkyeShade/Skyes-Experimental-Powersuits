@@ -17,6 +17,18 @@
   "item.expowersuits.tungsten_ingot" : "Tungsten Ingot",
   "item.expowersuits.raw_tungsten" : "Raw Tungsten",
 
+  "item.expowersuits.titanium_sword" : "Titanium Sword",
+  "item.expowersuits.titanium_pickaxe" : "Titanium Pickaxe",
+  "item.expowersuits.titanium_axe" : "Titanium Axe",
+  "item.expowersuits.titanium_shovel" : "Titanium Shovel",
+  "item.expowersuits.titanium_hoe" : "Titanium Hoe",
+
+  "item.expowersuits.tungsten_sword" : "Tungsten Sword",
+  "item.expowersuits.tungsten_pickaxe" : "Tungsten Pickaxe",
+  "item.expowersuits.tungsten_axe" : "Tungsten Axe",
+  "item.expowersuits.tungsten_shovel" : "Tungsten Shovel",
+  "item.expowersuits.tungsten_hoe" : "Tungsten Hoe",
+
 
   "block.expowersuits.titanium_ore" : "Titanium Ore",
   "block.expowersuits.deepslate_titanium_ore" : "Deepslate Titanium Ore",
