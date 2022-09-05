@@ -15,7 +15,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
 
 
-    TITANIUM("titanium", 40, new int[]{2, 5, 6, 2}, 45, SoundEvents.ARMOR_EQUIP_NETHERITE, 6.0F, 0.1F, () -> {
+    TITANIUM("titanium", 0, new int[]{2, 5, 6, 2}, 45, SoundEvents.ARMOR_EQUIP_NETHERITE, 6.0F, 0.1F, () -> {
         return Ingredient.of(Items.NETHERITE_INGOT);
     });
 

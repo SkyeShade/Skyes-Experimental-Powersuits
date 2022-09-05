@@ -13,6 +13,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.skyeshade.expowersuits.ExPowersuits;
+import net.skyeshade.expowersuits.block.custom.IndustrialForgeBlock;
 import net.skyeshade.expowersuits.item.ModCreativeModeTab;
 import net.skyeshade.expowersuits.item.ModItems;
 
@@ -36,6 +37,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_TUNGSTEN_ORE = registerBlock("deepslate_tungsten_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.DEEPSLATE).strength(24f).requiresCorrectToolForDrops().explosionResistance(1200f)), ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB);
 
+    public static final RegistryObject<Block> INDUSTRIAL_FORGE = registerBlock("industrial_forge",
+            () -> new IndustrialForgeBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB);
 
     //register stuff that i dont understand 100%
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab)  {

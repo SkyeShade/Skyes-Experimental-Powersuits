@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "expowersuits:block/industrial_forge_front",
+    "side": "expowersuits:block/industrial_forge_side",
+    "top": "expowersuits:block/industrial_forge_top"
+  }
+}

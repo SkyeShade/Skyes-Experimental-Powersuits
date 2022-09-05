@@ -9,6 +9,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.skyeshade.expowersuits.block.ModBlocks;
 import net.skyeshade.expowersuits.item.ModItems;
+import net.skyeshade.expowersuits.world.feature.ModConfiguredFeatures;
+import net.skyeshade.expowersuits.world.feature.ModPlacedFeatures;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -30,6 +32,9 @@ public class ExPowersuits
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
 
+        ModConfiguredFeatures.register(eventBus);
+        ModPlacedFeatures.register(eventBus);
+
         eventBus.addListener(this::setup);
 
 
@@ -41,7 +46,7 @@ public class ExPowersuits
     {
         // some preinit code
         LOGGER.info("HELLO FROM PREINIT");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getName());
     }
 
 }

@@ -29,11 +29,17 @@
   "item.expowersuits.tungsten_shovel" : "Tungsten Shovel",
   "item.expowersuits.tungsten_hoe" : "Tungsten Hoe",
 
+  "item.expowersuits.titanium_helmet" : "Titanium Helmet",
+  "item.expowersuits.titanium_chestplate" : "Titanium Chestplate",
+  "item.expowersuits.titanium_leggings" : "Titanium Leggings",
+  "item.expowersuits.titanium_boots" : "Titanium Boots",
+
 
   "block.expowersuits.titanium_ore" : "Titanium Ore",
   "block.expowersuits.deepslate_titanium_ore" : "Deepslate Titanium Ore",
   "block.expowersuits.tungsten_ore" : "Tungsten Ore",
   "block.expowersuits.deepslate_tungsten_ore" : "Deepslate Tungsten Ore",
+  "block.expowersuits.industrial_forge" : "Industrial Forge",
 
   "itemGroup.experimental_powersuits_tab": "Experimental Powersuits"
 }

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "expowersuits:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "expowersuits:titanium_chestplate"
+  }
+}

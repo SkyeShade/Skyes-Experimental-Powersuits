@@ -71,6 +71,20 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.HEAD,
     new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB)));
 
+    public static final RegistryObject<Item> TITANIUM_CHESTPLATE = ITEMS.register("titanium_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB)));
+
+    public static final RegistryObject<Item> TITANIUM_LEGGINGS = ITEMS.register("titanium_leggings",
+            () -> new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB)));
+
+    public static final RegistryObject<Item> TITANIUM_BOOTS = ITEMS.register("titanium_boots",
+            () -> new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModeTab.EXPERIMENTAL_POWERSUITS_TAB)));
+
+
+
 
     //Tools
     public static final RegistryObject<Item> TUNGSTEN_SWORD = ITEMS.register("tungsten_sword",
