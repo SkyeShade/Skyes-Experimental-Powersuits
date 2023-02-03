@@ -3,12 +3,15 @@ package net.skyeshade.expowersuits;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.skyeshade.expowersuits.block.ModBlocks;
+import net.skyeshade.expowersuits.item.ModCreativeModeTab;
 import net.skyeshade.expowersuits.item.ModItems;
+import net.skyeshade.expowersuits.item.TabItemAdder;
 import net.skyeshade.expowersuits.world.feature.ModConfiguredFeatures;
 import net.skyeshade.expowersuits.world.feature.ModPlacedFeatures;
 import org.slf4j.Logger;
@@ -32,12 +35,11 @@ public class ExPowersuits
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
 
-        ModConfiguredFeatures.register(eventBus);
-        ModPlacedFeatures.register(eventBus);
+
 
         eventBus.addListener(this::setup);
 
-
+        eventBus.addListener(TabItemAdder::addCreative);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
@@ -48,5 +50,6 @@ public class ExPowersuits
         LOGGER.info("HELLO FROM PREINIT");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getName());
     }
+
 
 }
