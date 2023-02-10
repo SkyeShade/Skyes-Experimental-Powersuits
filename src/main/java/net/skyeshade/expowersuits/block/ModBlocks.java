@@ -15,7 +15,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.skyeshade.expowersuits.ExPowersuits;
-import net.skyeshade.expowersuits.block.custom.IndustrialForgeBlock;
+
+import net.skyeshade.expowersuits.block.custom.WorkStationBlock;
 import net.skyeshade.expowersuits.item.ModCreativeModeTab;
 import net.skyeshade.expowersuits.item.ModItems;
 
@@ -46,6 +47,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_TUNGSTEN_ORE = registerBlock("deepslate_tungsten_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.DEEPSLATE).strength(24f).requiresCorrectToolForDrops().explosionResistance(1200f)));
 
+
+    public static final RegistryObject<Block> WORKSTATION = registerBlock("workstation",
+            () -> new WorkStationBlock(BlockBehaviour.Properties.of(Material.HEAVY_METAL).sound(SoundType.STONE).strength(10f).requiresCorrectToolForDrops().explosionResistance(1200f)));
 
 
     //register stuff that i dont understand 100%

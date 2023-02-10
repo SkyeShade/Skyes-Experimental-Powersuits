@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "facing=north": { "model": "expowersuits:block/industrial_forge" },
+    "facing=south": { "model": "expowersuits:block/industrial_forge", "y": 180 },
+    "facing=west": { "model": "expowersuits:block/industrial_forge", "y": 270 },
+    "facing=east": { "model": "expowersuits:block/industrial_forge", "y": 90 },
+    "facing=up": { "model": "expowersuits:block/industrial_forge", "x": -90 },
+    "facing=down": { "model": "expowersuits:block/industrial_forge", "x": 90 }
+
+  }
+}

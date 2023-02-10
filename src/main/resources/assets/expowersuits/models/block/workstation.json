@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "down": "expowersuits:block/workstation_down",
+    "east": "expowersuits:block/workstation_side",
+    "north": "expowersuits:block/workstation_front",
+    "particle": "expowersuits:block/workstation_front",
+    "south": "expowersuits:block/workstation_side",
+    "up": "expowersuits:block/workstation_top",
+    "west": "expowersuits:block/workstation_front"
+  }
+}

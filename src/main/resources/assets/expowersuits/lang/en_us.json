@@ -34,12 +34,21 @@
   "item.expowersuits.titanium_leggings" : "Titanium Leggings",
   "item.expowersuits.titanium_boots" : "Titanium Boots",
 
+  "item.expowersuits.iron_light_plating" : "Light Iron Plating",
+  "item.expowersuits.iron_medium_plating" : "Medium Iron Plating",
+  "item.expowersuits.iron_heavy_plating" : "Heavy Iron Plating",
 
   "block.expowersuits.titanium_ore" : "Titanium Ore",
   "block.expowersuits.deepslate_titanium_ore" : "Deepslate Titanium Ore",
   "block.expowersuits.tungsten_ore" : "Tungsten Ore",
   "block.expowersuits.deepslate_tungsten_ore" : "Deepslate Tungsten Ore",
   "block.expowersuits.industrial_forge" : "Industrial Forge",
+  "block.expowersuits.workstation" : "Work Station",
 
-  "itemGroup.experimental_powersuits_tab": "Experimental Powersuits"
+  "itemGroup.experimental_powersuits_tab": "Experimental Powersuits",
+
+
+  "item.powerarmor.desc.energy": "Energy: %dRF",
+  "item.powerarmor.desc.capacity": "Capacity: %dRF",
+  "item.powerarmor.desc.holdshift": "Hold Shift For Advanced Details"
 }
